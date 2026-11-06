@@ -2867,11 +2867,21 @@ html[lang='ar'] .footer__title {
 @media (max-width: 640px) {
   .hero {
     min-height: 92svh;
-    padding-block-start: calc(var(--header-h) + 36px);
+    padding-block-start: calc(var(--header-h) + 20px);
+  }
+
+  .hero__inner {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
   }
 
   .hero__content {
-    padding-block-end: 30px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding-block-end: 24px;
   }
 
   .hero__actions {
